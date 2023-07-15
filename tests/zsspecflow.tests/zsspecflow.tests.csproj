@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\zslib\zslib.csproj" />
+    <ProjectReference Include="..\..\zslib\zslib.csproj" />
   </ItemGroup>
 
 </Project>
