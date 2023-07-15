@@ -7,9 +7,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zscon", "zscon\zscon.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zslib", "zslib\zslib.csproj", "{F187917A-6121-4397-8AC9-537BB961D5F7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zsxunit", "zsxunit\zsxunit.csproj", "{2E702035-EB72-49C2-9137-A0CD232F2C19}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zsxunit", "tests\zsxunit.tests\zsxunit.tests.csproj", "{2E702035-EB72-49C2-9137-A0CD232F2C19}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zsspecflow", "zsspecflow\zsspecflow.csproj", "{47073662-AC56-45FE-944E-D0B40F460E8C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zsspecflow", "tests\zsspecflow.tests\zsspecflow.tests.csproj", "{47073662-AC56-45FE-944E-D0B40F460E8C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
