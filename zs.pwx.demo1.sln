@@ -3,6 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zscon", "zscon\zscon.csproj", "{1F3CB4DF-B31F-4F65-BC8C-DE30DB28B7A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zslib", "zslib\zslib.csproj", "{F187917A-6121-4397-8AC9-537BB961D5F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zsxunit", "zsxunit\zsxunit.csproj", "{2E702035-EB72-49C2-9137-A0CD232F2C19}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -10,5 +16,19 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F3CB4DF-B31F-4F65-BC8C-DE30DB28B7A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F3CB4DF-B31F-4F65-BC8C-DE30DB28B7A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F3CB4DF-B31F-4F65-BC8C-DE30DB28B7A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F3CB4DF-B31F-4F65-BC8C-DE30DB28B7A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F187917A-6121-4397-8AC9-537BB961D5F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F187917A-6121-4397-8AC9-537BB961D5F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F187917A-6121-4397-8AC9-537BB961D5F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F187917A-6121-4397-8AC9-537BB961D5F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E702035-EB72-49C2-9137-A0CD232F2C19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E702035-EB72-49C2-9137-A0CD232F2C19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E702035-EB72-49C2-9137-A0CD232F2C19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E702035-EB72-49C2-9137-A0CD232F2C19}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
